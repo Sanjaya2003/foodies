@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .navbar
+{
+    background-color: rgb(55, 49, 49);
+   
+   
+} */
+.navbar::before {
+    content: "";
+    background:#736b69;
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    z-index: -1;
+    left: 40px;
+}
+
+.im1 {
+
+    height: 30px;
+    width: 40px;
+    border: 0.5px solid #736b69;
+    border-radius: 50%;
+}
+
+ul {
+    position: absolute;
+    top: 0px;
+    left: 550px;
+    display: flex;
+
+}
+
+.item {
+    padding: 4px 18px;
+    list-style: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hed1 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-top: 120px;
+    color: white;
+}
+
+.par1 {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 10px 414px;
+
+    color: white;
+}
+
+.bt1 {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0px 676px;
+    padding: 0px -16px;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 105px;
+}
+.bt1:hover
+{
+    background-color: azure;
+    color: black;
+}
+.home::before {
+    content: "";
+    background-image: url(img1.jpg);
+    position: absolute;
+    height: 368px;
+    opacity: 0.89;
+    width: 100%;
+    z-index: -1;
+   margin: -2px;
+}
+
+.home {
+    margin: -4px;
+    padding: 0px;
+
+}
+
+.hed2 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding-top: 105px;
+    color: red;
+    text-shadow:3px 3px 5px blue ;
+   
+    
+}
+
+.box {
+    border: 2px solid black;
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(212, 208, 207);
+    margin: 0px 4px;
+    padding: 0px 37px;
+    text-transform: capitalize;
+    text-align: justify;
+    padding-bottom: 20px;
+    margin-top: 0.5px;
+    
+}
+
+.box img {
+    height: 201px;
+    width: 250px;
+    display: block;
+    margin: 0px auto;
+
+}
+
+.hed3 {
+    text-align: center;
+}
+
+
+
+.service {
+    display: flex;
+    
+}
+.hed4
+{
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(211, 28, 28);
+    text-shadow: 3px 3px 5px blue;
+}
+.im2
+{
+    height: 120px;
+    width: 150px;
+}
+.client
+{
+    display: flex; 
+justify-content: center;
+margin-top: 33px;
+}
+.c1
+{
+   margin: 10px 25px;
+}
+.clients::before {
+    content: "";
+    background-image: url(piza3.jpg);  
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 270px;
+    opacity: 0.7;
+    width: 100%;
+   z-index: -1;
+   margin-top: 2px;
+}
+.contact
+{
+    margin: 50px 643px;
+    
+}
+.hed5
+{
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(211, 28, 28);
+    text-shadow: 3px 3px 5px blue;
+    margin-top: 7px;
+}
+.contacts::before {
+    content: "";
+    background-image: url(contact.jpg);  
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 450px;
+    opacity: 0.9;
+    width: 100%;
+   z-index: -1;
+   margin-top: -1px;
+}
+.formg input
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    width: 445px;
+    margin: 11px 121px;
+    padding: 5px 6px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(200, 200, 216);
+    color: black;
+    margin-left: -4px;
+}
+ .bto
+{
+    margin: 12px 168px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: blue;
+    width: 50%;
+    padding: 8px 12px;
+    font-style: italic;
+    background-color: blue;
+
+}
+.footer
+{
+    text-align: center;
+    background-color: black;
+    font-size: 1.2rem;
+    color: grey;
+}
